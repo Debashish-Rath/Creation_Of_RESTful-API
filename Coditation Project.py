@@ -19,13 +19,15 @@ def add_category_details():
             database_connection = mysql.connect()
             database_cursor = database_connection.cursor()
             database_cursor.execute(data_insertion, datas_to_be_inserted)
+            print("Category Inserted")
             database_connection.commit()
             
         else:
+            print("Not Inserted")
             return not_found()
 
     except Exception as e:
-        print(e)
+        print(str(e))
     
     
     response = jsonify('Category details added successfully !')
@@ -48,6 +50,7 @@ def add_product_details():
             database_connection = mysql.connect()
             database_cursor = database_connection.cursor()
             database_cursor.execute(data_insertion, datas_to_be_inserted)
+            print("Product Inserted")
             database_connection.commit()
             
         else:
@@ -229,6 +232,7 @@ def delete_product(Product_ID):
 
 @app.errorhandler(404)
 def not_found(error=None):
+    print("Inside not_found function")
     message = {
         'status': 404,
         'message': 'Record not found: ' + request.url,
