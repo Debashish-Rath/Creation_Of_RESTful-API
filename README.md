@@ -56,7 +56,7 @@ Steps to follow for optimal running and testing this project:
 	   --> app.config['MYSQL_DATABASE_USER'] = ""
 	   --> app.config["MYSQL_DATABASE_PASSWORD"] = ""
 	   --> app.config["MYSQL_DATABASE_DB"] = "the_tech_world_store"
-           --> app.config["MYSQL_DATABASE_HOST"] = "" 
+       --> app.config["MYSQL_DATABASE_HOST"] = "" 
 
 	# Here, you need to enter your database username, password and host.
 	# The name of my database_schema here is "the_tech_world_store", so I have written above as it is.
