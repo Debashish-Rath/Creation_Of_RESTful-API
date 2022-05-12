@@ -59,8 +59,10 @@ Steps to follow for optimal running and testing this project:
 
 	# Here, you need to enter your database username, password and host.
 	# The name of my database_schema here is "the_tech_world_store", so I have written above as it is.
-	# Remaining field datas are to entered by you.
+	# Remaining fields are to be filled by you.
 
+
+--> In order to start the flask server, please run the command "python Coditation Project.py".
 
 --> For API testing you can use Postman, Talend API Tester (It has chrome extension)
 
@@ -82,7 +84,7 @@ Steps to follow for optimal running and testing this project:
 			"/delete/product/Product_ID"
 
 
---> For adding and updating data you can refer to the format inside two text documents which has been provided.
+--> For adding and updating "Product" data and "Category" data, you can refer to the format provided inside two text files which are "Product_file.txt" and "Category_file.txt".
 
 --> You can test these operations by using above formats.
 
