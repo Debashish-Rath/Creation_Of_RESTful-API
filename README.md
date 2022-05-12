@@ -1,5 +1,5 @@
 # Creation_Of_RESTful-API
-                           -------------------------Documentation for Running and Testing this project-----------------------------
+                   -------------------------Documentation for Running and Testing this project-----------------------------
 
 --> Hi !! My name is Debashish Rath.
 --> In this document I'll brief about this project and state the important instructions for proper running and testing this Project.
@@ -51,11 +51,11 @@ Steps to follow for optimal running and testing this project:
 
 --> In sys_config.py file, you need to configure the database by giving required inputs.
     You will get following fields in this Python file:
-	# MySQL configurations
-	. app.config['MYSQL_DATABASE_USER'] = ""
-	. app.config["MYSQL_DATABASE_PASSWORD"] = ""
-	. app.config["MYSQL_DATABASE_DB"] = "the_tech_world_store"
-	. app.config["MYSQL_DATABASE_HOST"] = "" 
+	--> MySQL configurations:
+	--> app.config['MYSQL_DATABASE_USER'] = ""
+	--> app.config["MYSQL_DATABASE_PASSWORD"] = ""
+	--> app.config["MYSQL_DATABASE_DB"] = "the_tech_world_store"
+	--> app.config["MYSQL_DATABASE_HOST"] = "" 
 
 	# Here, you need to enter your database username, password and host.
 	# The name of my database_schema here is "the_tech_world_store", so I have written above as it is.
